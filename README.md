@@ -1,4 +1,4 @@
-# Analytics Core
+# Backend - Cinema
 
 - [Setup](#setup)
 - [API Documentation](#api-documentation)
