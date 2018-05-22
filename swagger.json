@@ -1,0 +1,31 @@
+{
+    "swagger": "2.0",
+    "host": "localhost",
+    "info": {
+        "title": "Cinema",
+        "description": "",
+        "version": "1.0.0"
+    },
+    "basePath": "/",
+    "consumes": [
+        "application/json",
+        "multipart/form-data"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "schemes": [
+        "http"
+    ],
+    "tags": [
+        {
+            "name": "cinema"
+        }
+    ],
+    "paths": {
+
+    },
+    "definitions": {
+       
+    }
+}

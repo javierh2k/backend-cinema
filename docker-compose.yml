@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+    testhub:
+        build:
+            context: ./.
+            dockerfile: ./Dockerfile
+        environment:
+            - NODE_ENV=development
+            - CINEMA_URI=mongodb://mongodb/cinema
+        depends_on:
+            - mongodb
+
+    mongodb:
+        image: mongo   
+        ports:
+            - 27017:27017
